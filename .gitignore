@@ -1,0 +1,7 @@
+node_modules/*
+.sass-cache/*
+.vscode/*
+.DS_Store
+
+# transpiled files
+dist/bundle.min.js

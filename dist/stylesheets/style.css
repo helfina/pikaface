@@ -1,0 +1,155 @@
+body {
+  background-image: linear-gradient(180deg, #FFF 20%, #a4c2f4 95%);
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+header {
+  background-color: #4269b1;
+  height: 60px;
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: top;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFF;
+  margin: 12px;
+}
+
+#login {
+  padding-top: 14px;
+  width: 35vw;
+  float: right;
+}
+
+#login input {
+  border: none;
+  border-radius: 2px;
+  height: 30px;
+}
+
+#logged {
+  padding-top: 5px;
+  width: 10vw;
+  float: right;
+  position: relative;
+}
+
+#logged img {
+  height: 48px;
+  border-radius: 100%;
+}
+
+button#submit {
+  background-color: #052f81;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #FFF;
+  cursor: pointer;
+  height: 30px;
+}
+
+button#submit:hover {
+  background-color: #06235e;
+}
+
+img#map {
+  width: 60vw;
+  margin: 20vh 0 0 5vw;
+}
+
+#wall {
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #EBE9EE;
+  min-height: 100vh;
+  border-right: 1px solid #FFF;
+  padding: 10px;
+}
+
+#input-box {
+  width: 100%;
+  height: 102px;
+  background-color: #DEDCE0;
+  border: 1px solid #FFF;
+  border: none;
+}
+
+#create-message {
+  display: block;
+  font-family: 'Helvetica';
+  font-size: .8em;
+  width: 100%;
+  min-height: 70px;
+  margin: 0px auto;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#submit-button {
+  border: none;
+  background-color: #021243;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  margin: 5px 4px 0 0;
+}
+
+#wall-wrapper {
+  margin-top: 50px;
+}
+
+.message {
+  width: 80%;
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 2px auto 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+}
+
+.light {
+  background-color: #FFF;
+}
+
+#advert {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFF;
+  height: 100vh;
+}
+
+#advert h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #021243;
+}
+
+#advert img {
+  width: 90%;
+}
+
+.notif {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  color: #FFFFFF;
+  border-radius: 100%;
+  position: absolute;
+  top: -13px;
+  left: 30px;
+}
+.notif-happy {
+  background-color: orange;
+}
+.notif-angry {
+  background-color: red;
+}
